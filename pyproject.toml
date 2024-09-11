@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-path-converter"
+version = "0.1.0"
+description = ""
+authors = ["Marek Paulik <marpauli@cisco.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyperclip = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
